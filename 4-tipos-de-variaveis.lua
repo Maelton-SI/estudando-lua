@@ -27,10 +27,12 @@
 -- Exemplos dos tipos de variáveis --
 
 modelo = "Volkswagen Fusca 1300"
+tamanho_string_modelo = #modelo --> Use `#` para obter o tamanho de strings e tables
 ano = 1965
 rebaixado = false
 preco = 2000.59
 
+--print(tamanho_string_modelo)
 --print(ano)
 --print(preco)
 
