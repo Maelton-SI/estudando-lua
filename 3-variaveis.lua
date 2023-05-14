@@ -11,6 +11,7 @@ print(comediante) --> Imprime `tiririca`
 
 comediante = nil
 print(comediante) --> Imprime `nil`
+print()
 
 --[[
     1. Lua é case sensitive:
@@ -29,3 +30,38 @@ print(comediante) --> Imprime `nil`
     while
 
 ]]
+
+-- Lua suporta assinatura multipla
+
+assinatura, realidade = 'ivo calado', 'ivo darkside'
+print(assinatura, realidade)
+
+-- Em Lua é possivel realizar a troca de valores das variaveis da seguinte forma:
+assinatura, realidade = realidade, assinatura
+print(assinatura, realidade)
+print()
+
+-- Variáveis locais
+local PI = 3.14
+
+if true then
+    print(PI)
+    print() 
+end
+
+if true then 
+    local PI = 1 
+    print(PI)
+    print()
+end
+
+print(PI)
+print()
+
+-- Bloco `do`
+
+do
+    local s = "Sou uma variável local"
+end
+
+print(s)

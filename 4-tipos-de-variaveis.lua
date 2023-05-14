@@ -114,7 +114,11 @@ table.contains(tabela, valor): Retorna true se o elemento estiver na tabela, cas
 
 ]]
 
-minhaTabela = {} --> Criando tabela
+minhaTabela = {} --> Criando tabela, jeito 1
+minhaTabela2 = {'tic-tac', 'pipipi-popopo'} --> Criando tabela, jeito 2
+
+-- Posso utilizar `;` (ponto e virgula) para separar dados de uma tabela
+minhaTabela3 = {x = 'horizontal'; y = 'vertical'} --> Criando tabela, jeito 3
 
 minhaTabela["x"] = 10 --[[ mesmo que -->]]  minhaTabela.x = 10
 
