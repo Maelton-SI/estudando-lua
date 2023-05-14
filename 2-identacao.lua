@@ -5,6 +5,9 @@ print()
 print("tenho "..tostring(idade)         .." anos")
 print()
 
+print('acho que tenho' ..idade ..'anos')
+print()
+
 print("sou o tiririca e tenho", idade, "anos")
 print()
 
